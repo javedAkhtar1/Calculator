@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.3rem;
+    color: beige;
+}
+
+.container {
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin-inline: auto;
+    margin-top: 18px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+#input-field {
+    text-align: right;
+    font-size: 2rem;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button {
+    font-size: 1.5rem;
+    font-weight: 600    ;
+    text-align: center;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+#del-btn, #clr-btn {
+    background-color: #ff3d3d;
+}
+#del-btn:hover, #clr-btn:hover {
+    background-color: #ff6060;
+}
+
+
+.number-btn {
+    background-color: orange;
+}
+.number-btn:hover {
+    background-color: rgb(255, 193, 77);
+}
+
+
+.operator-btn {
+    background-color: pink;
+}
+.operator-btn:hover {
+    background-color: rgb(255, 215, 222);
+}
+
+
+#equal-btn {
+    grid-column: span 3;
+    background-color: lawngreen;
+}
+#equal-btn:hover {
+    background-color: rgb(91, 183, 0);
+}
